@@ -25,11 +25,11 @@ workflow") -- exactly like real open source projects.
    `Settings → Collaborators → Add people`.
 3. Clone your fork to your machine:
    ```
-   git clone git@github.com:<your-username>/quiz-project.git
+   git clone git@github.com:<your-username>/quiz_project_jerusalem1_07-2026.git
    ```
 4. Set the instructor's repo as `upstream` so you can sync:
    ```
-   git remote add upstream git@github.com:<instructor-username>/quiz-project.git
+   git remote add upstream git@github.com:yossiRav/quiz_project_jerusalem1_07-2026.git
    ```
 
 ### For a team member
