@@ -43,11 +43,13 @@ def main_menu():
         # TODO Engine team: connect run_quiz here (option 4)
         # ------------------------------------------------------------------
 
-        # ------------------------------------------------------------------
-        # TODO Scoring team: connect calculate_score / save_result here
-        # (works together with running the quiz)
-        # ------------------------------------------------------------------
-
+        # -------------------------------------------------------
+        
+        
+        
+        score = calculate_score(answers)
+        save_result(results, player, score)
+        print(f"score{score}")
         # ------------------------------------------------------------------
         # TODO Results team: connect show_leaderboard / find_hardest_question /
         # player_statistics here (options 5, 6, 7)
